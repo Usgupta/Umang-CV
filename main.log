@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Homebrew) (preloaded format=pdflatex 2022.3.3)  24 MAY 2022 08:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Homebrew) (preloaded format=pdflatex 2022.3.3)  24 MAY 2022 10:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -423,16 +423,16 @@ Package rerunfilecheck Warning: File `main.out' has changed.
 
 Package rerunfilecheck Info: Checksums for `main.out':
 (rerunfilecheck)             Before: 8178769A591DAE54593BE5DC5893BD68;390
-(rerunfilecheck)             After:  58666BC72C4288E8A163CC2AADC2D050;458.
+(rerunfilecheck)             After:  465BE65B0A5FF48595E1B629699D9FBC;463.
  ) 
 Here is how much of TeX's memory you used:
  9644 strings out of 478994
  143527 string characters out of 5850134
- 480895 words of memory out of 5000000
+ 480897 words of memory out of 5000000
  27000 multiletter control sequences out of 15000+600000
  412082 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 71i,11n,74p,253b,342s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 71i,11n,74p,216b,342s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/Cellar/texlive/58837_1/share/texmf-dist/fonts/type1/public/amsfon
 ts/cm/cmbx10.pfb></usr/local/Cellar/texlive/58837_1/share/texmf-dist/fonts/type
 1/public/amsfonts/cm/cmbx12.pfb></usr/local/Cellar/texlive/58837_1/share/texmf-
@@ -442,7 +442,7 @@ r/texlive/58837_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></
 usr/local/Cellar/texlive/58837_1/share/texmf-dist/fonts/type1/public/amsfonts/c
 m/cmsy6.pfb></usr/local/Cellar/texlive/58837_1/share/texmf-dist/fonts/type1/pub
 lic/amsfonts/cm/cmti10.pfb>
-Output written on main.pdf (1 page, 106782 bytes).
+Output written on main.pdf (1 page, 107575 bytes).
 PDF statistics:
  71 PDF objects out of 1000 (max. 8388607)
  53 compressed objects within 1 object stream
