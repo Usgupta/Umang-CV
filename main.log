@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Homebrew) (preloaded format=pdflatex 2022.3.3)  25 MAY 2022 15:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Homebrew) (preloaded format=pdflatex 2022.3.3)  25 MAY 2022 16:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -442,7 +442,7 @@ r/texlive/58837_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></
 usr/local/Cellar/texlive/58837_1/share/texmf-dist/fonts/type1/public/amsfonts/c
 m/cmsy6.pfb></usr/local/Cellar/texlive/58837_1/share/texmf-dist/fonts/type1/pub
 lic/amsfonts/cm/cmti10.pfb>
-Output written on main.pdf (1 page, 108656 bytes).
+Output written on main.pdf (1 page, 108476 bytes).
 PDF statistics:
  72 PDF objects out of 1000 (max. 8388607)
  54 compressed objects within 1 object stream
