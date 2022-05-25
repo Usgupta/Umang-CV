@@ -1,8 +1,8 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Homebrew) (preloaded format=pdflatex 2022.3.3)  25 MAY 2022 15:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Homebrew) (preloaded format=pdflatex 2022.3.3)  25 MAY 2022 15:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**main.te
+**main.tex
 (./main.tex
 LaTeX2e <2020-10-01> patch level 4
 L3 programming layer <2021-02-18>
@@ -404,10 +404,6 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 127.
 
-Overfull \hbox (10.51637pt too wide) in alignment at lines 277--277
-[] [] 
- []
-
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 4.08003pt, for example:
@@ -430,13 +426,13 @@ Package rerunfilecheck Info: Checksums for `main.out':
 (rerunfilecheck)             After:  4E42A3B288558E7E74C9AD89ED411050;756.
  ) 
 Here is how much of TeX's memory you used:
- 9646 strings out of 478994
- 143539 string characters out of 5850134
- 480897 words of memory out of 5000000
+ 9645 strings out of 478994
+ 143536 string characters out of 5850134
+ 481897 words of memory out of 5000000
  27000 multiletter control sequences out of 15000+600000
  412082 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 71i,11n,74p,215b,342s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 71i,11n,74p,216b,342s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/Cellar/texlive/58837_1/share/texmf-dist/fonts/type1/public/amsfon
 ts/cm/cmbx10.pfb></usr/local/Cellar/texlive/58837_1/share/texmf-dist/fonts/type
 1/public/amsfonts/cm/cmbx12.pfb></usr/local/Cellar/texlive/58837_1/share/texmf-
@@ -446,7 +442,7 @@ r/texlive/58837_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></
 usr/local/Cellar/texlive/58837_1/share/texmf-dist/fonts/type1/public/amsfonts/c
 m/cmsy6.pfb></usr/local/Cellar/texlive/58837_1/share/texmf-dist/fonts/type1/pub
 lic/amsfonts/cm/cmti10.pfb>
-Output written on main.pdf (1 page, 108801 bytes).
+Output written on main.pdf (1 page, 108656 bytes).
 PDF statistics:
  72 PDF objects out of 1000 (max. 8388607)
  54 compressed objects within 1 object stream
