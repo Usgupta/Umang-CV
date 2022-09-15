@@ -10,7 +10,7 @@ print("creating resume pdf now")
 yr = datetime.datetime.now().year
 original = r'main.pdf'
 
-target = r'UMANG GUPTA RESUME ' + str(yr)
+target = r'UMANG GUPTA RESUME ' + str(yr) + '.pdf'
 
 shutil.copyfile(original, target)
 link = 'https://github.com/Usgupta/Umang-CV/blob/'+branch.name+'/'+target
