@@ -6,6 +6,7 @@
 %------------------------
 
 \documentclass[letterpaper,11pt]{article}
+  \usepackage[T1]{fontenc}
 
 \usepackage{latexsym}
 \usepackage[empty]{fullpage}
@@ -19,8 +20,9 @@
 \usepackage[english]{babel}
 \usepackage{tabularx}
 \input{glyphtounicode}
-
-
+% % \usepackage{lmodern} \usepackage[utf8]{inputenc}{L Modern[120][blue]}
+%  \makefield{\faLinkedin}
+%   {\url{http://www.linkedin.com/in/example/}}
 %----------FONT OPTIONS----------
 % sans-serif
 % \usepackage[sfdefault]{FiraSans}
@@ -38,6 +40,10 @@
 \fancyfoot{}
 \renewcommand{\headrulewidth}{0pt}
 \renewcommand{\footrulewidth}{0pt}
+% \renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+\usepackage{fontawesome5}
+\usepackage{setspace}
+% \begin{document}
 
 % Adjust margins
 \addtolength{\oddsidemargin}{-0.5in}
@@ -104,6 +110,8 @@
 
 
 \begin{document}
+% \verb|Facebook|: \faFacebook \quad \faFacebookSquare \par
+% \verb|Twitter|: \faTwitter \quad \faTwitterSquare \par
 
 %----------HEADING----------
 % \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
@@ -113,10 +121,9 @@
 
 \begin{center}
     \textbf{\Huge \scshape \underline{Umang} Gupta} \\ \vspace{1pt}
-    \small \href{tel:+6593790540}{\underline {+65 93790540}}
-  $|$ \href{mailto:umanggupta1103@gmail.com}{\underline{umanggupta1103@gmail.com}} $|$ 
-    \href{https://linkedin.com/in/umangguptacs}{\underline{linkedin.com/in/umangguptacs}} $|$
-    \href{https://github.com/Usgupta}{\underline{github.com/Usgupta}}
+    \small \href{tel:+6593790540}{\faIcon{mobile-alt} \underline {+65 93790540}}
+  $|$ \href{mailto:umanggupta1103@gmail.com}{\faIcon{envelope} \underline{umanggupta1103@gmail.com}} $|$ 
+    \href{https://linkedin.com/in/umangguptacs}{\faIcon{linkedin} \underline{linkedin.com/in/umangguptacs}} $|$\href{https://github.com/Usgupta}{ \faIcon{github} \underline{github.com/Usgupta}}
 \end{center}
 
 
@@ -126,9 +133,10 @@
     \resumeSubheading
       {Singapore University of Technology and Design}{Singapore}
       {Bachelor of Engineering in Computer Science and Design, Minor in Artificial Intelligence}{Sept. 2020 -- May 2024}
-    \resumeItem{\emph{GPA 4.46/5.0, SUTD Honors List}}
-    \resumeItem{\emph{Available full time from Jan 2023 - Sept 2023}}
-
+      \newline{}
+    \\{{GPA 4.46/5.0, SUTD Honors List}}
+    \\{Available full time from Jan 2023 - Sept 2023}
+    \\\textbf{Relevant courses}{: Data Structures and Algorithms, Operating Systems, Concurrency, Database, Networks, Machine Learning, Artificial Intelligence}
     % \resumeSubheading
     %   {Blinn College}{Bryan, TX}
     %   {Associate's in Liberal Arts}{Aug. 2014 -- May 2018}
@@ -144,7 +152,7 @@
       Design X Singapore Mentorship Committee}{Singapore}
       \resumeItemListStart
         \resumeItem{Researched on Network Design and Performance in Blockchain Networks and its impact on user and developer trust for decentralized applications}
-        \resumeItem{Recognized as the best research team among 5 others by finding most valued business opportunity while operating under professors from SUTD and mentor from MIT, }
+        \resumeItem{Recognized as the best research team out of 5 rival teams for finding business opportunity with professors from SUTD and mentor from MIT}
         % \resumeItem{Explored ways to visualize GitHub collaboration in a classroom setting}
     \resumeItemListEnd
       
@@ -182,19 +190,19 @@
 \section{Projects}
     \resumeSubHeadingListStart
     \resumeProjectHeading
-          {\textbf{{\href{https://sites.google.com/view/group10dynostic}{Dygnostic}}} $|$ \emph{Ruby on Rails, JavaScript, HTML, React, GCP, Postgresql, Python, Git}}{May 2022 -- Aug 2022}
+          {\textbf{{\href{https://sites.google.com/view/group10dynostic}{Dygnostic}}} $|$ \emph{Ruby on Rails, JavaScript, HTML, Python, GCP, Postgresql, React, Git}}{May 2022 -- Aug 2022}
           \resumeItemListStart
-            \resumeItem{Led a team of 6 and developed web app automating TSH Group's machine inspection reducing time by 30\%}
+            \resumeItem{Led a team of 6 developing a web app to automate TSH Group's machine inspection to attain 30\% time reduction}
             \resumeItem{Utilised Cloud Vision to automatically analyze quality of label on the machine components}
-            \resumeItem{Recognized as the most well architectured for Implementing REST APIs and microservices, }
-            \resumeItem{Followed BDD and TDD, succeeded as the most well tested software in 15 projects}
+            \resumeItem{Recognized as the best architecture for Implementing REST APIs and microservices, }
+            \resumeItem{Followed BDD and TDD, succeeded as the best tested software in 15 projects}
           \resumeItemListEnd
           
     \resumeProjectHeading
           {\textbf{{\href{https://github.com/Usgupta/pa_2}{Secure File Transfer}}} $|$ \emph{Python, Cryptography, Git}}{Jul 2022 -- Aug 2022}
           \resumeItemListStart
-            \resumeItem{Implemented a secure file upload application from a client to a secure file server ensuring Confidentiality, Integrity, Authentication, Preventing Replay Attack}
-            \resumeItem{Achieved to be the most secure file transfer program developed from scratch in a cohort of 250 students}
+            \resumeItem{Implemented a secure file upload application from a client to a secure file server ensuring Confidentiality, Integrity, Authentication and Preventing Replay Attack}
+            \resumeItem{Won best secure file transfer program award out of 250 students}
            
           \resumeItemListEnd
     
@@ -208,9 +216,9 @@
       \resumeProjectHeading
           {\textbf{{\href{https://github.com/Usgupta/voicebus}{VoiceBus}}} $|$ \emph{Swift, IOS, Machine Learning, Git}}{Dec 2021 -- May 2022}
           \resumeItemListStart
-            \resumeItem{Led a team of 4 and developed a full-stack iOS voice enabled bus information app for the visually impaired}
-            \resumeItem{Applied machine learning to recognize and process speech, convert text to speech}
-            \resumeItem{Succeeded as the only app to receive positive user feedback, and to publish the app on App store}
+            \resumeItem{Led a team of 4 to develop a full-stack iOS voice enabled bus information app for the visually impaired}
+            \resumeItem{Created text to speech using machine learning}
+            \resumeItem{Succeeded as the only app to receive positive user feedback, and to \href{https://apps.apple.com/app/voicebus/id1624028704}{ \underline{publish the app on App store}}}
             \resumeItem{Winner of Swift Inclusive App Development Hackathon 2022}
            
           \resumeItemListEnd
@@ -219,16 +227,15 @@
           {\textbf{{\href{https://github.com/Usgupta/HawkerGO}{HawkerGO!}}} $|$ \emph{Java, Android, Google Firebase, Git}}{Feb 2022 -- Apr 2022}
           
           \resumeItemListStart
-            \resumeItem{Led a team of 6 and developed a full stack Android application}
-            \resumeItem{Single, centralised resource for users to view and review hawker stalls and hawkers centres in Singapore supporting local stores not available on Google Maps}
-            \resumeItem{Recognized as top 10 Apps developed among over 200 students}
+            \resumeItem{Led a team of 6 and developed a full stack Android application, to view and review hawker stalls and hawkers centres in Singapore supporting local stores not available on Google Maps}
+            \resumeItem{Ranked 4th among over 200 students}
           \resumeItemListEnd
           
         \resumeProjectHeading
           {\textbf{{\href{https://github.com/Usgupta/50.002-Computation-Structures-1D-Project}{FDM5K}}} $|$ \emph{Alchitry, Lucid, FPGA, Git}}{Feb 2022 -- Apr 2022}
           \resumeItemListStart
-            \resumeItem{Led a team of 8 and developed a hardware game inspired by Bishi-Bashi arcade game}
-            \resumeItem{Recognized as top 5 games developed among over 200 students}
+            \resumeItem{Led a team of 8 to develop a hardware game inspired by Bishi-Bashi arcade game}
+            \resumeItem{Won 5th rank among over 200 students}
           \resumeItemListEnd
           
           
@@ -255,8 +262,8 @@
       {Software and Electronics Engineer $|$ \normalfont {\emph{Altium, Soldering}}}{Feb 2021 -- Jun 2022}
       {SUTD Ringcomm Club }{Singapore}
       \resumeItemListStart
-        \resumeItem{Contributed to software of smart watch replacing student access card and bank card for payments}
-        \resumeItem{Designed a decryption NFC Reader that can read and decrypt MIFARE IDs}
+        \resumeItem{Created a smart watch software replacing student campus access card and payment bank card}
+        \resumeItem{Designed a decryption NFC Reader that can read and decrypt MIFARE IDs to replace student campus card}
         \resumeItem{Experimenting on NFC architecture to ensure robust short-range NFC reception with small antennas}
     \resumeItemListEnd
     

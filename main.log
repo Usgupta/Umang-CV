@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Homebrew) (preloaded format=pdflatex 2022.5.27)  17 SEP 2022 09:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Homebrew) (preloaded format=pdflatex 2022.5.27)  19 SEP 2022 13:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -22,6 +22,9 @@ File: size11.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
 \bibindent=\dimen138
+)
+(/usr/local/Cellar/texlive/20220321/share/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 )
 (/usr/local/Cellar/texlive/20220321/share/texmf-dist/tex/latex/base/latexsym.st
 y
@@ -306,32 +309,59 @@ Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
 )
 (/usr/local/Cellar/texlive/20220321/share/texmf-dist/tex/generic/pdftex/glyphto
 unicode.tex)
+(/usr/local/Cellar/texlive/20220321/share/texmf-dist/tex/latex/fontawesome5/fon
+tawesome5.sty
+(/usr/local/Cellar/texlive/20220321/share/texmf-dist/tex/latex/l3kernel/expl3.s
+ty
+Package: expl3 2022-02-24 L3 programming layer (loader) 
+
 (/usr/local/Cellar/texlive/20220321/share/texmf-dist/tex/latex/l3backend/l3back
 end-pdftex.def
 File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count274
 \l__pdf_internal_box=\box54
+))
+Package: fontawesome5 2021/06/04 v5.15.3 Font Awesome 5
+
+(/usr/local/Cellar/texlive/20220321/share/texmf-dist/tex/latex/l3packages/l3key
+s2e/l3keys2e.sty
+Package: l3keys2e 2022-01-12 LaTeX2e option processing using LaTeX3 keys
+)
+(/usr/local/Cellar/texlive/20220321/share/texmf-dist/tex/latex/l3packages/xpars
+e/xparse.sty
+Package: xparse 2022-01-12 L3 Experimental document command parser
+)
+(/usr/local/Cellar/texlive/20220321/share/texmf-dist/tex/latex/fontawesome5/fon
+tawesome5-generic-helper.sty
+Package: fontawesome5-generic-helper 2021/06/04 v5.15.3 non-uTeX helper for fon
+tawesome5
+
+(/usr/local/Cellar/texlive/20220321/share/texmf-dist/tex/latex/fontawesome5/fon
+tawesome5-mapping.def)))
+(/usr/local/Cellar/texlive/20220321/share/texmf-dist/tex/latex/setspace/setspac
+e.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
 ) (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 106.
-LaTeX Font Info:    ... okay on input line 106.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 106.
-LaTeX Font Info:    ... okay on input line 106.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 106.
-LaTeX Font Info:    ... okay on input line 106.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 106.
-LaTeX Font Info:    ... okay on input line 106.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 106.
-LaTeX Font Info:    ... okay on input line 106.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 106.
-LaTeX Font Info:    ... okay on input line 106.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 106.
-LaTeX Font Info:    ... okay on input line 106.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 106.
-LaTeX Font Info:    ... okay on input line 106.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 106.
-LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 112.
+LaTeX Font Info:    ... okay on input line 112.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 112.
+LaTeX Font Info:    ... okay on input line 112.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 112.
+LaTeX Font Info:    ... okay on input line 112.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 112.
+LaTeX Font Info:    ... okay on input line 112.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 112.
+LaTeX Font Info:    ... okay on input line 112.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 112.
+LaTeX Font Info:    ... okay on input line 112.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 112.
+LaTeX Font Info:    ... okay on input line 112.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 112.
+LaTeX Font Info:    ... okay on input line 112.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 112.
+LaTeX Font Info:    ... okay on input line 112.
 
 (/usr/local/Cellar/texlive/20220321/share/texmf-dist/tex/context/base/mkii/supp
 -pdf.mkii
@@ -348,7 +378,7 @@ LaTeX Font Info:    ... okay on input line 106.
 \makeMPintoPDFobject=\count280
 \everyMPtoPDFconversion=\toks25
 )
-Package hyperref Info: Link coloring OFF on input line 106.
+Package hyperref Info: Link coloring OFF on input line 112.
 
 (/usr/local/Cellar/texlive/20220321/share/texmf-dist/tex/latex/hyperref/nameref
 .sty
@@ -364,39 +394,54 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count281
 )
-LaTeX Info: Redefining \ref on input line 106.
-LaTeX Info: Redefining \pageref on input line 106.
-LaTeX Info: Redefining \nameref on input line 106.
+LaTeX Info: Redefining \ref on input line 112.
+LaTeX Info: Redefining \pageref on input line 112.
+LaTeX Info: Redefining \nameref on input line 112.
  (./main.out) (./main.out)
 \@outlinefile=\write3
 \openout3 = `main.out'.
 
-
-
-LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
-(Font)              using `OT1/cmr/bx/n' instead on input line 115.
-
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <24.88> on input line 115.
+(Font)              <24.88> on input line 123.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <20.74> on input line 115.
+(Font)              <20.74> on input line 123.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <17.28> on input line 115.
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 11
-5.
+(Font)              <17.28> on input line 123.
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 12
+3.
+
 (/usr/local/Cellar/texlive/20220321/share/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
+LaTeX Font Info:    Trying to load font information for U+fontawesomefree2 on i
+nput line 124.
+
+(/usr/local/Cellar/texlive/20220321/share/texmf-dist/tex/latex/fontawesome5/ufo
+ntawesomefree2.fd)
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 116.
+(Font)              <7> on input line 124.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 116.
+(Font)              <5> on input line 124.
+LaTeX Font Info:    Trying to load font information for U+fontawesomefree1 on i
+nput line 125.
+
+(/usr/local/Cellar/texlive/20220321/share/texmf-dist/tex/latex/fontawesome5/ufo
+ntawesomefree1.fd)
+LaTeX Font Info:    Trying to load font information for U+fontawesomebrands0 on
+ input line 126.
+
+(/usr/local/Cellar/texlive/20220321/share/texmf-dist/tex/latex/fontawesome5/ufo
+ntawesomebrands0.fd)
+LaTeX Font Info:    Font shape `U/fontawesomebrands0/solid/n' in size <10> not 
+available
+(Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead o
+n input line 126.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 128.
+(Font)              <10.95> on input line 135.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 128.
+(Font)              <8> on input line 135.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 128.
+(Font)              <6> on input line 135.
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
@@ -408,9 +453,6 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 {/usr/local/Cellar/texlive/20220321/share/texmf-dist/fonts/map/pdftex/updmap/pd
 ftex.map}] (./main.aux)
 
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
-
 Package rerunfilecheck Warning: File `main.out' has changed.
 (rerunfilecheck)                Rerun to get outlines right
 (rerunfilecheck)                or use package `bookmark'.
@@ -420,26 +462,37 @@ Package rerunfilecheck Info: Checksums for `main.out':
 (rerunfilecheck)             After:  A0DE4035C843B3E2AB57C26B1F009132;630.
  ) 
 Here is how much of TeX's memory you used:
- 10228 strings out of 478268
- 164124 string characters out of 5837861
- 506257 words of memory out of 5000000
- 28316 multiletter control sequences out of 15000+600000
- 477911 words of font info for 62 fonts, out of 8000000 for 9000
+ 13653 strings out of 478268
+ 238558 string characters out of 5837861
+ 550302 words of memory out of 5000000
+ 31695 multiletter control sequences out of 15000+600000
+ 484677 words of font info for 69 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,11n,63p,234b,341s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/Cellar/texlive/20220321/share/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmbx10.pfb></usr/local/Cellar/texlive/20220321/share/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmbx12.pfb></usr/local/Cellar/texlive/20220321/share/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/Cellar/texlive/2
-0220321/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/C
-ellar/texlive/20220321/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.p
-fb></usr/local/Cellar/texlive/20220321/share/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmsy6.pfb></usr/local/Cellar/texlive/20220321/share/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmti10.pfb>
-Output written on main.pdf (1 page, 108875 bytes).
+ 60i,11n,63p,297b,341s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{/usr/local/Cellar/texlive/20220321/share/texmf-dist/fonts/enc/dvips/cm-super
+/cm-super-t1.enc}{/usr/local/Cellar/texlive/20220321/share/texmf-dist/fonts/enc
+/dvips/fontawesome5/fa5brands0.enc}{/usr/local/Cellar/texlive/20220321/share/te
+xmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc}{/usr/local/Cellar/texlive/2
+0220321/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free2.enc}</usr/local/
+Cellar/texlive/20220321/share/texmf-dist/fonts/type1/public/fontawesome5/FontAw
+esome5Brands-Regular.pfb></usr/local/Cellar/texlive/20220321/share/texmf-dist/f
+onts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb></usr/local/Cellar/te
+xlive/20220321/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr
+/local/Cellar/texlive/20220321/share/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmsy6.pfb></usr/local/Cellar/texlive/20220321/share/texmf-dist/fonts/type1/publ
+ic/cm-super/sfbx1000.pfb></usr/local/Cellar/texlive/20220321/share/texmf-dist/f
+onts/type1/public/cm-super/sfbx1095.pfb></usr/local/Cellar/texlive/20220321/sha
+re/texmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb></usr/local/Cellar/texli
+ve/20220321/share/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/loc
+al/Cellar/texlive/20220321/share/texmf-dist/fonts/type1/public/cm-super/sfrm109
+5.pfb></usr/local/Cellar/texlive/20220321/share/texmf-dist/fonts/type1/public/c
+m-super/sfti1000.pfb></usr/local/Cellar/texlive/20220321/share/texmf-dist/fonts
+/type1/public/cm-super/sfti1095.pfb></usr/local/Cellar/texlive/20220321/share/t
+exmf-dist/fonts/type1/public/cm-super/sfxc2488.pfb>
+Output written on main.pdf (1 page, 228718 bytes).
 PDF statistics:
- 78 PDF objects out of 1000 (max. 8388607)
- 60 compressed objects within 1 object stream
+ 111 PDF objects out of 1000 (max. 8388607)
+ 82 compressed objects within 1 object stream
  7 named destinations out of 1000 (max. 500000)
  33 words of extra memory for PDF output out of 10000 (max. 10000000)
 
