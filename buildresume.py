@@ -8,7 +8,7 @@ branch = repo.active_branch
 print("creating resume pdf now")
 
 yr = datetime.datetime.now().year
-original = r'main.pdf'
+original = r'UMANG GUPTA RESUME.pdf'
 
 target = r'UMANG GUPTA RESUME ' + str(yr) + '.pdf'
 
