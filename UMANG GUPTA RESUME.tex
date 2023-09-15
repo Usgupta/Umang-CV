@@ -19,6 +19,7 @@
 \usepackage{fancyhdr}
 \usepackage[english]{babel}
 \usepackage{tabularx}
+\usepackage{soul}
 \input{glyphtounicode}
 % % \usepackage{lmodern} \usepackage[utf8]{inputenc}{L Modern[120][blue]}
 %  \makefield{\faLinkedin}
@@ -119,8 +120,10 @@
 \begin{center}
     \textbf{\huge \scshape \underline{Umang} Gupta} \\ \vspace{2pt}
     \footnotesize \href{tel:+6593790540}{\faIcon{mobile-alt}  \footnotesize \underline {+65 93790540}}
-  $|$ \href{mailto:umanggupta1103@gmail.com}{\faIcon{envelope} \underline{umanggupta1103@gmail.com}} $|$ 
-    \href{https://linkedin.com/in/umangguptacs}{\faIcon{linkedin} \footnotesize \underline{linkedin.com/in/umangguptacs}} $|$\href{https://github.com/Usgupta}{ \faIcon{github} \underline{github.com/Usgupta}}
+  $|$ \href{mailto:umanggupta1103@gmail.com}{\faIcon{envelope} \underline{umanggupta1103@gmail.com}}
+    $|$\href{https://umangpt.com}{ \faIcon{globe} \underline{umangpt.com}}
+    $|$ \href{https://linkedin.com/in/umangguptacs}{\faIcon{linkedin} \footnotesize \underline{linkedin.com/in/umangguptacs}} $|$\href{https://github.com/Usgupta}{ \faIcon{github} \underline{github.com/Usgupta}}
+    
 \end{center}
 
 
@@ -149,9 +152,9 @@
       {Grab}{Jan 2023 -- May 2023}
       {\normalfont {Software Engineer Intern}  $|$ \normalfont {{Kotlin, Java, Git, RxJava, Dagger, Android Studio}}}{}
       \resumeItemListStart
-        \resumeItem{Reduced Grab Driver Android app debugging time by 45\% with a custom TCP socket message logger.}
-        \resumeItem{Boosted Grab Driver activity by 25\% through complete Android app development of a targeted incentivization feature.}
-        % \resumeItem{Explored ways to visualize GitHub collaboration in a classroom setting}
+        \resumeItem{Reduced Grab Driver Android app debugging time by 45\% with a \ul{custom TCP socket message logger}}
+        \resumeItem{Boosted Grab Driver activity by 25\% through complete \ul{Android development} of an incentivization feature.}
+        \resumeItem{Increased Driver jobs by 10\% by \ul{manipulating the matching algorithm} to change filters after a specific period}
     \resumeItemListEnd
 
     % \resumeSubheading
@@ -168,10 +171,7 @@
         % \resumeItem{Conducted  a human subject study to determine which video game dungeon generation technique is enjoyable}
         % \resumeItem{Wrote an 8-page paper and gave multiple presentations on-campus}
         % \resumeItem{Presented virtually to the World Conference on Computational Intelligence}
-     
-
   \resumeSubHeadingListEnd
-
 
 %-----------PROJECTS-----------
 \section{Projects}
@@ -180,64 +180,82 @@
     \resumeProjectHeading
           {\textbf{{\href{https://github.com/Usgupta/AnimatedDrawings}{\faExternalLink* HPC-Enhanced Animation}}} $|$  Python, OpenGL, Slurm, HPC, Apptainer, Docker, Anaconda }{Jul 2023 --  Aug 2023}
            \resumeItemListStart
-            \resumeItem{Orchestrated seamless integration of the innovative animation methodology from the research repository into the HPC cluster setup, harnessing parallel processing for efficient rendering and visualization tasks.}
+            \resumeItem{Orchestrated seamless integration of animation methodology from Meta's research into HPC cluster, harnessing \ul{parallel processing for efficient rendering and visualization} tasks.}
             \resumeItem{Worked under Professor Steve Jones, Director of HPC @ Stanford }
     
           \resumeItemListEnd
 
-          
-     \resumeProjectHeading
-          {\textbf{{{Deepfake Audio Detection}}} $|$ Python, PyTorch, SciPy, Signal Processing }{Apr 2023 --  Present}
-          \resumeItemListStart
-            \resumeItem{Leading a team of 8 to research and implement multiple audio deepfake detectors}
-            \resumeItem{Working with Professors from SUTD and mentor from Singapore HTX}
-    
-          \resumeItemListEnd
-
-          
+         
       \resumeProjectHeading          {\textbf{{\href{https://sites.google.com/view/group10dynostic}{\faExternalLink* Dygnostic}}} $|$ {Ruby on Rails, JS, HTML, Python, GCP, Postgresql, React, Cucumber, Rspec}}	{May 2022 -- Aug 2022}
           \resumeItemListStart
-            \resumeItem{Led a team of 6 to develop a web app to automate TSH Group's machine inspection to attain 30\% time reduction}
-            \resumeItem{Utilised Cloud Vision to automatically analyze quality of label on the machine components}
-            \resumeItem{Recognized as the best architecture for implementing REST APIs and microservices }
-            \resumeItem{Followed BDD and TDD, succeeded as the best tested software in 15 projects by conducting unit and e2e testing}
+            \resumeItem{Led a team of 6 to develop a \ul{web app} to automate TSH Group's machine inspection to attain 30\% time reduction}
+            \resumeItem{Utilised \ul{Cloud Vision} to automatically analyze quality of label on the machine components}
+            \resumeItem{Recognized as the best architecture for implementing \ul{REST APIs and microservices} }
+            \resumeItem{Followed BDD and TDD, succeeded as the best tested software in 15 projects by conducting \ul{unit and e2e testing}}
           \resumeItemListEnd
 
          \resumeProjectHeading
             {\textbf{{\href{https://github.com/Usgupta/RDTonUDP}{\faExternalLink* RDTonUDP}}} $|$ {Python, Networking, TCP/UDP, Git}}{Sept 2022 -- Oct 2022}
           \resumeItemListStart
-            \resumeItem{Designed and implemented a congestion-controlled, pipelined Reliable Data Transfer (RDT) protocol over UDP, enabling secure text file transfer across unreliable networks.}
+            \resumeItem{Designed and implemented a congestion-controlled, pipelined Reliable Data Transfer \ul{(RDT) protocol over UDP}, enabling secure text file transfer across unreliable networks.}
             % \resumeItem{Developed a two-stage communication process for string reversal between client and server using sockets. Negotiated a random port for data transfer through a fixed negotiation port using TCP.}
-            \resumeItem{Successfully achieved 0 crashes in the program, thoroughly tested on remote machines with seamless server and client execution on both same and different machines.}
+            \resumeItem{Achieved 0 crashes, tested on multiple different remote linux machines}
         
            
           \resumeItemListEnd
-
-    
-      \resumeProjectHeading
-          {\textbf{{\href{https://github.com/Usgupta/voicebus}{\faExternalLink* VoiceBus}}} $|$ {Swift, IOS, Machine Learning, Git}}{\footnotesize	{Dec 2021 -- May 2022}}
+          
+     \resumeProjectHeading
+           {\href{https://youtu.be/pHnS5BMzTfg} {\faIcon{youtube} }\textbf{{\href{https://github.com/Usgupta/voicebus}{\faExternalLink* VoiceBus}}} $|$ {Swift, IOS, Machine Learning, Git}}{\footnotesize	{Dec 2021 -- May 2022}}
           \resumeItemListStart
-            \resumeItem{Led a team of 4 under direct mentorship of Apple's Systems Engineer to develop a full-stack iOS voice enabled bus information app for the visually impaired}
-            \resumeItem{Applied machine learning to create text-to-speech and speech recognition engines for the app}
-            \resumeItem{Succeeded as the only app to receive positive user feedback, and to\href{https://apps.apple.com/app/voicebus/id1624028704}{ \underline{publish the app on App store}}}
+            \resumeItem{Led a team of 4 under Apple Engineer to develop a \ul{full-stack IOS} voice enabled bus info app for visually impaired}
+            \resumeItem{Fine-tuned \ul{text-to-speech and speech recognition} engine}
+            \resumeItem{Succeeded as the only app to receive positive user feedback, and publish on App store}
             \resumeItem{Winner of Swift Inclusive App Development Hackathon 2022}
            
           \resumeItemListEnd
 
           \resumeProjectHeading
-          {\textbf{{\href{https://github.com/Usgupta/HawkerGO}{\faExternalLink* HawkerGO!}}} $|$ {Java, Android, Google Firebase, Junit, Git}}{\footnotesize	{Feb 2022 -- Apr 2022}}
+           {\href{https://youtu.be/pHnS5BMzTfg} {\faIcon{youtube} }\textbf{{\href{https://github.com/Usgupta/HawkerGO}{\faExternalLink* HawkerGO!}}} $|$ {Java, Android, Google Firebase, Junit, Git}}{\footnotesize	{Feb 2022 -- Apr 2022}}
           
           \resumeItemListStart
-            \resumeItem{Led a team of 6 to develop a full stack Android application, to view and review hawker stalls and hawker centres in Singapore supporting local stores not available on Google Maps}
-            \resumeItem{Ranked 4th among over 200 students for innovation and architecture of the app}
+            \resumeItem{Led a team of 6 to develop a \ul{full stack Android} app, to view and review hawker stalls and hawker centres in Singapore supporting local stores not available on Google Maps}
+            \resumeItem{Ranked 4th among over 200 students for innovation and architecture}
           \resumeItemListEnd
-          
-          \resumeProjectHeading
-              {\textbf{{\href{https://github.com/Usgupta/KBC}{\faExternalLink* Who Wants to be a Millionaire}}} $|$ {C++, Git}}{\footnotesize	{Sep 2019 -- Oct 2019}}
+
+     
+
+                  \resumeProjectHeading
+          {\textbf{{\href{https://github.com/Usgupta/pa_2}{\faExternalLink* Secure File Transfer}}} $|$ {Python, Cryptography, Git}}{Jul 2022 -- Aug 2022}
           \resumeItemListStart
-            \resumeItem{Developed an online version of “Who wants to be a millionaire” using C++}
-            \resumeItem{Recognized as top 5 C++ projects among 150 students}
+          
+            \resumeItem{Implemented a secure file upload application from a client to a secure file server ensuring \ul{Confidentiality, Integrity, Authentication and Preventing Replay Attack}}
+            \resumeItem{Won best program award out of 250 students for fastest secure encrypted file transfer}
+           
           \resumeItemListEnd
+
+        % \resumeProjectHeading
+        %   {\textbf{{\href{https://github.com/Usgupta/shell}{\faExternalLink* Shell}}} $|$ {C, Git}}	{Jun 2022 -- Jun 2022}
+        %   \resumeItemListStart
+        %     \resumeItem{Created shell to find files, change directory, count lines, check daemon processes and show available commands}
+        %     \resumeItem{Succeeded as the fastest coder to create shell in 12 hours among 250 students with no crashes from auto-testing}
+        %   \resumeItemListEnd
+          
+        % \resumeProjectHeading
+        %   {\textbf{{\href{https://github.com/Usgupta/50.002-Computation-Structures-1D-Project}{\faExternalLink* FDM5K}}} $|$ {Alchitry, Lucid, FPGA, Git}}{\footnotesize	{Feb 2022 -- Apr 2022}}
+        %   \resumeItemListStart
+        %     \resumeItem{Led a team of 8 to develop a hardware game inspired by Bishi-Bashi arcade game}
+        %     \resumeItem{Won 5th place among over 200 students for hardware quality, effectiveness of datapath, complexity of game}
+        %   \resumeItemListEnd
+
+    
+      
+          
+          % \resumeProjectHeading
+          %     {\textbf{{\href{https://github.com/Usgupta/KBC}{\faExternalLink* Who Wants to be a Millionaire}}} $|$ {C++, Git}}{\footnotesize	{Sep 2019 -- Oct 2019}}
+          % \resumeItemListStart
+          %   \resumeItem{Developed an online version of “Who wants to be a millionaire” using C++}
+          %   \resumeItem{Recognized as top 5 C++ projects among 150 students}
+          % \resumeItemListEnd
        
     \resumeSubHeadingListEnd
 
@@ -265,111 +283,6 @@
 
 %
 
-%-----------AWARDS-----------
-\section{Awards \& Accomplishments}
- \resumeSubHeadingListStart
-    \resumeSubheading
-      {The Jyoti and Aditya Mathur Environmental Award}{\footnotesize{SUTD}}
-      {\normalfont{Received for organising first sustainability themed design thinking hackathon of SUTD with 200 applicants}}{\footnotesize{Mar 2022}}
-    %   \resumeItem{  to software of smart watch replacing student ID card and bank card for payments}
-    % \resumeSubheading
-    %   {IdeateSomething}{SUTD Entrepreneurship}
-    %   {Won 1000 SGD for developing a concept app to quickly plan fun meetup with friends}{Dec 2021}
-    \resumeSubheading
-      {The Design and AI in the Data Driven World  Challenge}{SUTD X DBS}
-      {\normalfont{Won 500 SGD in pitching an AI powered credit card recommendation engine in Paylah App}}{\normalfont{Sept 2021}}
-    % \resumeSubheading
-    %   {Best Prototype DRIVE Program by Design Odyssey}{SUTD-MIT IDC}
-    %   {Developed a semi-automated hydroponics pod along with online control system}{Mar 2021}
-  \resumeSubHeadingListEnd
-
-
-%-------------------------------------------
-
-
-
-\pagebreak
-%-----------APPENDIX-----------
-
-% -----------PROGRAMMING SKILLS-----------
-
-
-\begin{center}
-    \textbf{\huge \scshape {APPENDIX}}
-\end{center}
-
-\section{Technical Skills}
- \begin{itemize}[leftmargin=0.15in, label={}]
-    \small{\item{
-     \textbf{Languages}{: Languages: Python, Java, JavaScript, C/C++, R, SQL, Swift, Kotlin, Ruby, HTML/CSS, Alchitry } \\
-     \textbf{Frameworks}{: JUnit, React, Spring Boot, Selenium Rails, Sinatra, Rspec, MongoDB, Dagger, Docker, Apptainer} \\
-     \textbf{Developer Tools}{: Git, Docker, Jupyter Notebook, VSCode, Android Studio, Xcode, Google Cloud Platform, Anaconda} \\
-     \textbf{Other Skills}{: Software Design, Software Architecture, UML, Software Testing, CI/CD, Parallel Computing, High Performance Computing, Machine Learning, Data Science } \\
-     \textbf{Libraries}{: Multiprocessing, MPI, NumPy, Pandas, Scikit-Learn, TensorFlow, PyTorch, Matplotlib, OpenAI, Da-vinci, Cryptography, Socket}
-    }}
-
-%     Languages: Python, Java, JavaScript, C/C++, R, SQL, Swift, Kotlin, HTML/CSS, React, Alchitry
-% Frameworks: Rails, Django, Spring Boot, Laravel, MongoDB, React Native, Flutter
-% Developer Tools: Git, Docker, Kubernetes, Jupyter Notebook, VSCode, IntelliJ IDEA, Android Studio, Xcode
-% Other Skills: Software Design, Software Architecture, UML, Software Testing, CI/CD, Cloud Computing, Parallel Computing, High Performance Computing, Machine Learning, Data Science
-% Libraries: NumPy, Pandas, Scikit-Learn, TensorFlow, PyTorch, Matplotlib
- \end{itemize}
- 
-\section{Other Projects}
-    \resumeSubHeadingListStart
-        \resumeProjectHeading
-        {\textbf{{\href{https://github.com/Usgupta/LectureGenie}{\faExternalLink* LectureGenie}}} $|$ {Python, Open AI, Da-vinci, Git }}{Apr 2023 -- Apr 2023}
-          \resumeItemListStart
-            \resumeItem{Created an AI Telegram bot to convert youtube links and lecture videos to question and answers}
-            \resumeItem{Uploaded the question answers to notion and shared custom link}
-            \resumeItem{Created the telegram bot in 15 hours for AISG Penta Hack, secured top 10 position among over 30 teams}
-          \resumeItemListEnd
-
-          \resumeProjectHeading
-          {\textbf{{\href{https://github.com/Usgupta/Rewards4You}{\faExternalLink* Rewards4U}}} $|$ {Python, AWS SageMaker, LambdaMART, Git}}{Jan 2023 -- Jan 2023}
-          \resumeItemListStart
-            \resumeItem{Created a data-driven payment service recommendation engine with AWS SageMaker and LTR algorithm}
-            \resumeItem{Optimized payment service ranking with LambdaMART to prevent errors and improve relevance}
-            \resumeItem{Developed an ML-powered API for seamless payment service comparison and maximum rewards.}
-        
-          \resumeItemListEnd
-
-        \resumeProjectHeading
-          {\textbf{{\href{https://github.com/Usgupta/pa_2}{\faExternalLink* Secure File Transfer}}} $|$ {Python, Cryptography, Git}}{Jul 2022 -- Aug 2022}
-          \resumeItemListStart
-          
-            \resumeItem{Implemented a secure file upload application from a client to a secure file server ensuring Confidentiality, Integrity, Authentication and Preventing Replay Attack}
-            \resumeItem{Won best program award out of 250 students for fastest secure encrypted file transfer}
-           
-          \resumeItemListEnd
-
-         \resumeProjectHeading
-          {\textbf{{\href{https://github.com/Usgupta/shell}{\faExternalLink* Shell}}} $|$ {C, Git}}	{Jun 2022 -- Jun 2022}
-          \resumeItemListStart
-            \resumeItem{Created shell to find files, change directory, count lines, check daemon processes and show available commands}
-            \resumeItem{Succeeded as the fastest coder to create shell in 12 hours among 250 students with no crashes from auto-testing}
-          \resumeItemListEnd
-          
-        \resumeProjectHeading
-          {\textbf{{\href{https://github.com/Usgupta/50.002-Computation-Structures-1D-Project}{\faExternalLink* FDM5K}}} $|$ {Alchitry, Lucid, FPGA, Git}}{\footnotesize	{Feb 2022 -- Apr 2022}}
-          \resumeItemListStart
-            \resumeItem{Led a team of 8 to develop a hardware game inspired by Bishi-Bashi arcade game}
-            \resumeItem{Won 5th place among over 200 students for hardware quality, effectiveness of datapath, complexity of game}
-          \resumeItemListEnd
-
-           \resumeProjectHeading
-            {\textbf{{\href{https://github.com/Usgupta/Pacman-The-Game}{\faExternalLink* Pacman}}} $|$ {Python, Git}}{\footnotesize	{Jul - 2022 -- Aug 2022}}
-          \resumeItemListStart
-            \resumeItem{Developed a copy of Pacman game using Python within 15 hours}
-            \resumeItem{Hailed as the best game developed in cohort of 550 students}
-          \resumeItemListEnd
-          
-         
-
-    \resumeSubHeadingListEnd
-
-     
-
 \section{References}
 
 \resumeSubHeadingListStart
@@ -391,5 +304,114 @@
         {\textbf{{\href{https://drive.google.com/file/d/1QD4YEIiiOh8PQPY5e4wxMtcAgXxdyRC7/view?usp=sharing}{\faExternalLink* Bernard Ee}}} $|$ {Senior Lecturer @ SUTD}}{Academic Mentor}
 
     \resumeSubHeadingListEnd
+
+
+% %-----------AWARDS-----------
+% \section{Awards \& Accomplishments}
+%  \resumeSubHeadingListStart
+%     \resumeSubheading
+%       {The Jyoti and Aditya Mathur Environmental Award}{\footnotesize{SUTD}}
+%       {\normalfont{Received for organising first sustainability themed design thinking hackathon of SUTD with 200 applicants}}{\footnotesize{Mar 2022}}
+%     %   \resumeItem{  to software of smart watch replacing student ID card and bank card for payments}
+%     % \resumeSubheading
+%     %   {IdeateSomething}{SUTD Entrepreneurship}
+%     %   {Won 1000 SGD for developing a concept app to quickly plan fun meetup with friends}{Dec 2021}
+%     \resumeSubheading
+%       {The Design and AI in the Data Driven World  Challenge}{SUTD X DBS}
+%       {\normalfont{Won 500 SGD in pitching an AI powered credit card recommendation engine in Paylah App}}{\normalfont{Sept 2021}}
+%     % \resumeSubheading
+%     %   {Best Prototype DRIVE Program by Design Odyssey}{SUTD-MIT IDC}
+%     %   {Developed a semi-automated hydroponics pod along with online control system}{Mar 2021}
+%   \resumeSubHeadingListEnd
+
+
+%-------------------------------------------
+
+
+
+\pagebreak
+%-----------APPENDIX-----------
+
+% -----------PROGRAMMING SKILLS-----------
+
+
+% \begin{center}
+%     \textbf{\huge \scshape {APPENDIX}}
+% \end{center}
+
+% \section{Technical Skills}
+%  \begin{itemize}[leftmargin=0.15in, label={}]
+%     \small{\item{
+%      \textbf{Languages}{: Languages: Python, Java, JavaScript, C/C++, R, SQL, Swift, Kotlin, Ruby, HTML/CSS, Alchitry } \\
+%      \textbf{Frameworks}{: JUnit, React, Spring Boot, Selenium Rails, Sinatra, Rspec, MongoDB, Dagger, Docker, Apptainer} \\
+%      \textbf{Developer Tools}{: Git, Docker, Jupyter Notebook, VSCode, Android Studio, Xcode, Google Cloud Platform, Anaconda} \\
+%      \textbf{Other Skills}{: Software Design, Software Architecture, UML, Software Testing, CI/CD, Parallel Computing, High Performance Computing, Machine Learning, Data Science } \\
+%      \textbf{Libraries}{: Multiprocessing, MPI, NumPy, Pandas, Scikit-Learn, TensorFlow, PyTorch, Matplotlib, OpenAI, Da-vinci, Cryptography, Socket}
+%     }}
+
+% %     Languages: Python, Java, JavaScript, C/C++, R, SQL, Swift, Kotlin, HTML/CSS, React, Alchitry
+% % Frameworks: Rails, Django, Spring Boot, Laravel, MongoDB, React Native, Flutter
+% % Developer Tools: Git, Docker, Kubernetes, Jupyter Notebook, VSCode, IntelliJ IDEA, Android Studio, Xcode
+% % Other Skills: Software Design, Software Architecture, UML, Software Testing, CI/CD, Cloud Computing, Parallel Computing, High Performance Computing, Machine Learning, Data Science
+% % Libraries: NumPy, Pandas, Scikit-Learn, TensorFlow, PyTorch, Matplotlib
+%  \end{itemize}
+ 
+% \section{Other Projects}
+%     \resumeSubHeadingListStart
+%         \resumeProjectHeading
+%         {\textbf{{\href{https://github.com/Usgupta/LectureGenie}{\faExternalLink* LectureGenie}}} $|$ {Python, Open AI, Da-vinci, Git }}{Apr 2023 -- Apr 2023}
+%           \resumeItemListStart
+%             \resumeItem{Created an AI Telegram bot to convert youtube links and lecture videos to question and answers}
+%             \resumeItem{Uploaded the question answers to notion and shared custom link}
+%             \resumeItem{Created the telegram bot in 15 hours for AISG Penta Hack, secured top 10 position among over 30 teams}
+%           \resumeItemListEnd
+
+%           \resumeProjectHeading
+%           {\textbf{{\href{https://github.com/Usgupta/Rewards4You}{\faExternalLink* Rewards4U}}} $|$ {Python, AWS SageMaker, LambdaMART, Git}}{Jan 2023 -- Jan 2023}
+%           \resumeItemListStart
+%             \resumeItem{Created a data-driven payment service recommendation engine with AWS SageMaker and LTR algorithm}
+%             \resumeItem{Optimized payment service ranking with LambdaMART to prevent errors and improve relevance}
+%             \resumeItem{Developed an ML-powered API for seamless payment service comparison and maximum rewards.}
+        
+%           \resumeItemListEnd
+
+       
+
+
+
+%            \resumeProjectHeading
+%             {\textbf{{\href{https://github.com/Usgupta/Pacman-The-Game}{\faExternalLink* Pacman}}} $|$ {Python, Git}}{\footnotesize	{Dec 20202 -  -- Dec 2020}}
+%           \resumeItemListStart
+%             \resumeItem{Developed a copy of Pacman game using Python within 15 hours}
+%             \resumeItem{Hailed as the best game developed in cohort of 550 students}
+%           \resumeItemListEnd
+          
+         
+
+%     \resumeSubHeadingListEnd
+
+     
+
+% \section{References}
+
+% \resumeSubHeadingListStart
+
+%         \resumeProjectHeading
+%         {\textbf{{\href{https://www.linkedin.com/in/hpcclusters/}{\faExternalLink* Steve Jones}}} $|$ {Director, High Performance Computing Center (HPC) @ Stanford}}{HPC Course Professor}
+
+        
+%         \resumeProjectHeading
+%         {\textbf{{\href{https://drive.google.com/file/d/19mpC9rTTXA7rkGL0SHyaICR1O5yjM18b/view?usp=sharing}{\faExternalLink* Gokul G}}} $|$ {Software Engineer Manager II @ Grab}}{Manager}
+
+%         \resumeProjectHeading
+%         {\textbf{{\href{mailto:natalie_agus@sutd.edu.sg}{\faExternalLink* Natalie Agus}}} $|$ {Senior lecturer @ ISTD, SUTD}}{ Computational Structures \& OS Course Professor}
+
+%         \resumeProjectHeading
+%         {\textbf{{\href{https://www.linkedin.com/in/tyler-mcdaniel-45ab7b98/}{\faExternalLink* Tyler McDaniel}}} $|$ {PhD, Sociology @ Stanford}}{Data Science Course Professor}
+
+%         \resumeProjectHeading
+%         {\textbf{{\href{https://drive.google.com/file/d/1QD4YEIiiOh8PQPY5e4wxMtcAgXxdyRC7/view?usp=sharing}{\faExternalLink* Bernard Ee}}} $|$ {Senior Lecturer @ SUTD}}{Academic Mentor}
+
+%     \resumeSubHeadingListEnd
 
 \end{document}
